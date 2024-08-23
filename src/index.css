@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+p, span, a {
+  font-size: 1rem;
+}
+
 ol, ul {
   list-style: none;
 }

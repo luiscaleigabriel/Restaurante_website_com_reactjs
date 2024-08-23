@@ -1,0 +1,19 @@
+.blog {
+  height: 600px;
+  padding-block: 70px;
+}
+
+.blog, .blog_more {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.blog div {
+  width: 100%;
+  height: 100%;
+}
+
+.blog_more {
+  flex-direction: column;
+}

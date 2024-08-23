@@ -42,3 +42,20 @@ img {
 .p-block {
   padding-inline: 8%;
 }
+
+.btn {
+  padding: 10px 20px;
+  border: 2px solid ;
+  transition: .5s ease;
+  font-weight: bold;
+} 
+
+.btn-yel {
+  border-color: yellow;
+  background-color: yellow;
+}
+
+.btn-yel:hover {
+  color: yellow;
+  background-color: transparent;
+}

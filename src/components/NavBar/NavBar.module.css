@@ -1,0 +1,35 @@
+.navbar > ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.navbar > ul > li > a {
+  position: relative;
+  padding: 8px;
+  transition: .5s ease;
+  text-shadow: 0 0 10px #ffe9c0;
+}
+
+.navbar > ul > li > a:hover {
+  color: #bf2222;
+}
+
+.navbar > ul > li > a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  height: 1px;
+  box-shadow: 0 0 10px #ffe9c0;
+  transition: .5s ease;
+  background-color: #bf2222;
+}
+
+.navbar > ul > li > a:hover::before {
+  width: 100%;
+}
+
+/* @media screen and (max-width: ) {
+  
+} */

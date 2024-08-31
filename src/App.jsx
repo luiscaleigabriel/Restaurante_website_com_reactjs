@@ -18,6 +18,13 @@ function App() {
         <div style={{textAlign: 'center', margin: '20px'}}>
           <a href="#" className="btn btn-yel">VER MAIS</a>
         </div>
+        <section>
+          <h2>CHOOSE & ENJOY</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet error reprehenderit autem minima repellendus odio tempore, temporibus nihil ab exercitationem earum tempora reiciendis doloribus at consequuntur praesentium repudiandae harum eum?</p>
+          <div className="cards">
+            
+          </div>
+        </section>
       </Container>
     </>
   )
